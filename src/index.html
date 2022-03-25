@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Tailwind</title>
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body class="min-h-screen min-w-screen overflow-x-hidden">
+    <header class="w-full bg-black bg-opacity-90 fixed z-20">
+        <div class="w-9/12 sm:w-11/12 md:w-10/12 h-20 mx-auto flex flex-row justify-between items-center">
+            <h1 class="font-sans text-2xl font-bold text-white">Claudio Olimpio</h1>
+            <div class="hidden md:flex flex-row items-stretch">
+                <a href="#home" class="card">Home</a>
+                <a href="#services" class="card">Services</a>
+                <a href="#Projects" class="card">Projects</a>
+                <a href="#about" class="card">About</a>
+                <a href="#contact" class="card">Contact</a>
+            </div>
+            <button id="openMenu" class="reduceMenu" style="background-image: url('../public/img/menu_white_36dp.svg');">
+            </button>  
+        </div>
+    </header>
+    <div class="mobile-menu hidden z-20">
+        <button id="closeMenu" class="reduceMenu expandMenu" style="background-image: url('../public/img/menu_open_white_36dp.svg');">
+        </button>
+        <a href="#home" class="cardMobile">Home</a>
+        <a href="#services" class="cardMobile">Services</a>
+        <a href="#Projects" class="cardMobile">Projects</a>
+        <a href="#about" class="cardMobile">About</a>
+        <a href="#contact" class="cardMobile">Contact</a>
+    </div>
+
+    <section id="home" class="pt-20 min-h-screen w-screen bg-gradient-to-tr from-cyan-600 to-blue-500">
+        <div class="w-full lg:w-3/4 mx-auto flex flex-col sm:flex-row justify-between " >
+            <div class="md:w-1/2 pt-10 sm:pt-72 flex flex-col sm:items-center mx-auto ">
+                <h2 class="text-white text-5xl sm:text-3xl md:text-5xl font-bold font-sans">
+                    <p>Hello,</p>
+                    <p>my name is</p>
+                    <p>Claudio</p>
+                </h2>
+                <div class="w-full md:w-64 flex md:justify-start">
+                    <a href="https://github.com/ClaudioProjects" target="_blank" class=" btnGithub ">GitHub</a> 
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 pt-20 sm:pt-72 flex justify-center mx-auto">
+                <div class="h-56 w-72 bg-cover mx-auto" style="background-image: url('../public/img/svg-home.svg');"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="pt-20 2xl:pt-36 min-h-screen w-screen bg-white ">
+        <h2 class=" text-gray-600 font-sans font-bold text-4xl text-center mt-8 hover:text-red-600">SERVICES</h2>
+        <p class="mx-5 text-center mt-4" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deserunt amet dolor nesciunt explicabo nobis incidunt, animi est ad suscipit magni rem corrupti voluptatum veritatis repudiandae, placeat commodi dicta cum.</p>
+        <div class="p-5 mt-8 mx-auto w-full lg:w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-4">
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+            <div class="webServiceBox">
+                <h3 class="text-white font-sans font-bold text-2xl mb-3" >Web Design</h3>
+                <div class="bg-cover h-11 w-11 absolute right-2 top-2" style="background-image: url('../public/img/rocket.svg');"></div>
+                <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima enim tempora fugit, adipisci amet, reiciendis a sapiente necessitatibus id voluptatum. Iusto culpa voluptas qui ipsa a ut vel impedit!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects" class="pt-24 min-h-screen max-w-screen border-t-2 border-solid border-black ">
+        <div>
+            <h2 class="text-center text-3xl text-slate-900 font-sans font-bold mb-16">PROJECTS</h2>
+            <div class="grid sm:grid-cols-2 w-11/12 sm:w-10/12 lg:9/12 2xl:w-8/12 mx-auto mb-10">
+                <div class="w-full h-96 2xl:h-96 bg-gradient-to-br from-gray-600 to-gray-900 p-6 sm:pb-0 flex flex-col justify-center rounded-t-2xl sm:rounded-none">
+                    <h3 class="text-5xl font-mono font-bold text-white mb-4">Project</h3>
+                    <span class="text-white font-semibold text-sm mb-3">Coding is love</span>
+                    <p class="text-white text-base md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, praesentium odit aliquam incidunt tempore corporis tenetur nemo aliquid illum quasi, sunt sequi. Minima eveniet earum corrupti labore reprehenderit, facilis quidem?</p>    
+                </div>
+                <div class="flex justify-center sm:items-center h-64 sm:h-96 w-full border-2 border-solid border-slate-900 basis-1/2 rounded-b-2xl sm:rounded-none mb-6 sm:mb-0">
+                    <div class="h-60 w-72 sm:h-48 sm:w-64 md:h-64 md:w-80 2xl:h-full 2xl:w-11/12 bg-cover" style="background-image: url('../public/img/projectsvg.svg');"></div>
+                </div>
+                <div class="w-full h-96 2xl:h-96 bg-gradient-to-br from-gray-600 to-gray-900 p-6 sm:pb-0 flex flex-col justify-center rounded-t-2xl sm:rounded-none">
+                    <h3 class="text-5xl font-mono font-bold text-white mb-4">Project</h3>
+                    <span class="text-white font-semibold text-sm mb-3">Coding is love</span>
+                    <p class="text-white text-base md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, praesentium odit aliquam incidunt tempore corporis tenetur nemo aliquid illum quasi, sunt sequi. Minima eveniet earum corrupti labore reprehenderit, facilis quidem?</p>    
+                </div>
+                <div class="flex justify-center sm:items-center h-64 sm:h-96 w-full border-2 border-solid border-slate-900 basis-1/2 rounded-b-2xl sm:rounded-none mb-6 sm:mb-0">
+                    <div class="h-60 w-72 sm:h-48 sm:w-64 md:h-64 md:w-80 2xl:h-full 2xl:w-11/12 bg-cover" style="background-image: url('../public/img/projectsvg.svg');"></div>
+                </div>
+                <div class="w-full h-96 2xl:h-96 bg-gradient-to-br from-gray-600 to-gray-900 p-6 sm:pb-0 flex flex-col justify-center rounded-t-2xl sm:rounded-none">
+                    <h3 class="text-5xl font-mono font-bold text-white mb-4">Project</h3>
+                    <span class="text-white font-semibold text-sm mb-3">Coding is love</span>
+                    <p class="text-white text-base md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, praesentium odit aliquam incidunt tempore corporis tenetur nemo aliquid illum quasi, sunt sequi. Minima eveniet earum corrupti labore reprehenderit, facilis quidem?</p>    
+                </div>
+                <div class="flex justify-center sm:items-center h-64 sm:h-96 w-full border-2 border-solid border-slate-900 basis-1/2 rounded-b-2xl sm:rounded-none mb-6 sm:mb-0">
+                    <div class="h-60 w-72 sm:h-48 sm:w-64 md:h-64 md:w-80 2xl:h-full 2xl:w-11/12 bg-cover" style="background-image: url('../public/img/projectsvg.svg');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="pt-24 min-h-screen max-w-screen bg-slate-500 flex justify-center items-center">
+        <div class="h-full w-full flex flex-col sm:flex-row sm:justify-center items-center">
+            <div class=" mr-4 relative w-72 ml-2">
+                <div class="h-52 w-52 border-8 border-solid border-red-800 absolute -top-5 left-5 sm:top-5 rounded-md"></div>
+                <img class="bg-cover h-52 w-52 rounded-md relative z-10" src="../public/img/myImage.jpg" >
+            </div>
+            <div class=" w-72 ">
+                <h2 class=" text-4xl font-semibold">ABOUTE <span class=" text-red-600 ">ME</span> </h2>
+                <span class=" font-medium">FRONT END DEVELOPER</span>
+                <p class=" mt-3 text-white font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quidem fugiat veniam ad corporis eos tempora quod cupiditate quasi ea obcaecati, facilis suscipit nihil mollitia non quae officiis architecto impedit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="pt-24 min-h-screen max-w-screen bg-orange-50 border-solid border-black flex justify-center items-center">
+        <div>
+            <h2 class=" text-4xl sm:text-7xl font-bold text-center">CONTACT <span class=" text-red-600">INFO</span></h2>
+            <div class=" mt-7 flex gap-4 sm:flex-row flex-col">
+                <div class="flex relative w-72 px-3 pt-3 rounded-md h-20 shadow-lg bg-slate-100 shadow-gray-400">
+                    <img class=" h-12 w-12 bg-cover" src="../public/img/email_white_36dp.svg">
+                    <div>
+                        <h3 class="ml-4 text-2xl font-medium">Email</h3>
+                        <p class="ml-3">claudiojr2002@hotmail.com</p>
+                    </div>
+                </div>
+                <div class="flex relative w-72 px-3 pt-3 rounded-md h-20 shadow-lg bg-slate-100 shadow-gray-500">
+                    <img class=" h-12 w-12 bg-cover" src="../public/img/call_black_36dp.svg">
+                    <div>
+                        <h3 class="ml-4 text-2xl font-medium">Telefone</h3>
+                        <p class="ml-3">+55 (32) 9 9974-8210</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../index.js"></script>
+</body>
+</html>
